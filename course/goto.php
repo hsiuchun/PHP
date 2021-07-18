@@ -1,0 +1,14 @@
+<?php
+ob_start();
+session_start();
+include("../conn.php");
+$year=$_POST["year"];
+$semester=$_POST["semester"];
+$class=$_POST["class"];
+$dep=$_POST["dep"];
+$degree=$_POST["degree"];
+$keyword=$_POST["keyword"];
+$week=$_POST["week"];
+$ctime=$_POST["ctime"];
+header("location:../course/search.php?sid=".$_SESSION["ID"]."&year=".$year."&semester=".$semester."&class=".$class."&dep=".$dep."&degree=".$degree."&keyword=".$keyword."&week=".$week."&ctime=".$ctime."");
+?>

@@ -1,0 +1,140 @@
+body{
+    font-family: PingFangSC-Regular, Verdana, Arial, 微软雅黑, 宋体;
+    font-size: 18px;
+}
+.header{
+    width:auto;
+    height:90px;
+    /* text-align:justify; */
+    background-color: #a39e9e;
+    color: #FFFFFF;
+}
+#subheader{
+    width:auto;
+    height:50px;
+    /* text-align:justify; */
+    background-color: #a39e9e;
+    color: #FFFFFF;
+}
+#name{
+    width:auto;
+    height:45px;
+    font-size: 30px;
+    /* text-align: justify;
+    text-justify: inter-ideograph;
+    -ms-text-justify: inter-ideograph;
+    text-align-last: justify; */
+}
+.line{
+    width:auto;
+    height: 2px;
+    background-color: #f2f4f6;
+}
+.func{
+    width:auto;
+    height:30px;
+    margin-top: 7px;
+}
+#left,#right{
+    width:auto;
+    height:25px;
+}
+#left{
+    text-align: left;
+    width: 60%;
+    height: auto;
+    float: left;
+}
+#right{
+    text-align: right;
+    width: auto;
+    height: auto;
+
+}
+#button{
+    font-size: 18px;
+    font-family: PingFangSC-Regular, Verdana, Arial, 微软雅黑, 宋体;
+    width: 120px;
+    height: 30px;
+    color: #FFFFFF;
+    background-color: #a39e9e;
+    border: none;
+}
+#button:hover {
+    background-color:rgba(118, 122, 120, 0.452);
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    width: 500px;
+    height: 250px;
+    background-color: #f2f4f6;
+    margin-top: 30px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    margin-left: 250px;
+
+}
+.main{
+    width: 75%;
+    height: 1000px;
+    background-color: rgb(248,248,248);
+    float: left;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 30px;
+}
+/* .adition{
+    width: 20%;
+    height: 600px;
+    background-color: #dadada;
+    float: left;
+} */
+
+/* 選課系統的下拉式選單 */
+
+.subject { 
+    color:#FFFFFF; 
+    background-color:#a39e9e;
+    cursor:pointer; 
+    display:inline-block; 
+    padding:5px; 
+    margin:0px;
+    width: 110px; 
+    height: auto; 
+    text-align:center
+} /* 主選單的樣式 */
+.subject:hover { 
+    background-color:rgba(235,237,236,0.4);  
+}
+.submenu { 
+    color:black; 
+    background-color:rgba(235,237,236,0.4); 
+    margin:5px -5px; 
+    padding:0px; 
+    position:absolute; 
+} /* 下拉清單的樣式 */
+.submenu li { 
+    padding: 3px 5px; 
+    text-align:center; 
+    
+} /* 下拉清單每一列的樣式 */
+.submenu li:hover { 
+    color:black; 
+    background-color:rgba(235,237,236,0.4); 
+}
+.submenu a { 
+    text-align:center; 
+    display:block; 
+    text-decoration:none; 
+    color:black; 
+    width: 110px; 
+}
+.submenu a:hover { 
+    color:black; 
+    background-color:rgba(235,237,236,0.4); 
+}
+
